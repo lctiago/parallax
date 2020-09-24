@@ -17,8 +17,12 @@ h3 {
     color: #111;
 }
 
-.caixa1, .caixa2 {
+/* Efeito parallax */
+.caixa1, .caixa2, .caixa3, .caixa4 {
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .caixa1 {
@@ -27,4 +31,12 @@ h3 {
 
 .caixa2 {
     background-image: url(img/imagem2.jpg);
+}
+
+.caixa3 {
+    background-image: url(img/imagem3.jpg);
+}
+
+.caixa4 {
+    background-image: url(img/imagem4.jpg);
 }
